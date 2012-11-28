@@ -1,0 +1,546 @@
+{% extends "fb_base.html" %}
+
+
+
+
+{% block content %}
+    <div id="bodyBg">
+
+        <div id="finaldata">
+            <input type="hidden" id="finalValue" value="">
+            <input type="hidden" id="gender" value=""> 
+        </div>
+        <!-- statment first str -->
+        <div id="statA" class="flt genderBox">
+            <div class="question1Box">
+                <div><img src="{{STATIC_URL}}images/img1.png" width="810" height="196" class="fruitFlowerImg" /></div>
+                <div class="quesA">What's your perfume type? </div>
+                <div class="QuesBrief">Buying a fragrance suiting your body type can be tricky. What goes right with your style, which one lingers for long, or which ones suits you are a few questions which arise while choosing a perfume type. This app will help you choose the right perfume matching your needs and personality type.</div>
+
+                <div class="shopFor"> You are?</div>
+                <div style="width:250px; margin:0 auto;">
+                    <div class="flt manBtn" id="stateMen" >MAN</div>
+                    <div class="frt womanBtn" id="stateWomen" >WOMAN</div>
+                </div>
+            </div>
+        </div>
+        <!-- statment first end -->
+        <!-- man box str -->
+        <div id="menBox" class="flt menBoxCls">
+            <div>
+                <div class="flt quesALftBg"></div>
+                <div class="flt" style="width:718px;">
+                    <div class="tpLnk">
+                        <div id="menBack" class="flt">Back</div>
+                        <div id="menStartA" class="frt">Start Over</div>
+                    </div>
+                    <div class="quesAHd">2. What type of scent inspires you?</div>
+                    <div style="margin:5px 30px 5px 60px;">
+                    <div id="man2page">
+                         <div style="margin-bottom:12px; padding:0 !important;" class="scentQuesATxt">Changes in moods are attributed to scents. Any fragrance that attributes to the strong and masculine odour is the right one for you.</div>
+                        <div class="quesAImg">
+                            <!-- <div class="imgblk"> -->
+                            <img class="imgA" height="220" src="{{STATIC_URL}}images/img3.jpg" width="201" height="243" hspace="0" vspace="0" /><br/><!-- </div> -->
+                            <div class="quesAImgHd" style="background:#e2a521;">FRESH</div>
+                            
+                            <div class="quesABAns">
+                                <div id="menLnkA" class="menBoxLnkCls flt freshQuesA ansA1" value="1"><div class="flt"><input class="pg2radio" type="radio" value="1" style="margin-top:4px; margin-right:6px;" /></div>AQUATIC</div>
+                                <div id="menLnkB" class="menBoxLnkCls frt freshQuesA ansA1 txtAlign" value="2"><div class="flt"><input class="pg2radio" type="radio" value="2" style="margin-top:4px;" /></div>CITRUS</div>
+                                <div class="clr"><!-- --></div>
+                                <div id="spB1" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:25px;"><img src="{{STATIC_URL}}images/speecharow.png" width="31" height="22" /></div>
+                                <div>Oceanic or aquatic fragrances are influences by the sea. They are often masculine and smell of sandy beach, salt and fresh </div>
+                                            
+                                </div>
+                                <div id="spB2" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:96px;"><img src="{{STATIC_URL}}images/speecharow2.png" width="31" height="22" /></div>
+                                <div>Something that reminds one of the zesty oranges, crisp lemon or a sharp cut  tangerine.
+                                </div>
+                                            
+                                </div>
+                                <div class="clr"><!-- --></div>
+                            </div>
+                        </div>
+                        <div class="quesAImg">
+                            <img class="imgB"height="220"src="{{STATIC_URL}}images/img4.jpg" width="201" height="243" hspace="0" vspace="0" /><br />
+                            <div class="quesAImgHd" style="background:#90a110;">AROMATIC</div>
+                            
+                            <div class="quesABAns">
+                                <div id="menLnkC" class="menBoxLnkCls flt freshQuesB ansB1" value="3"><div class="flt"><input class="pg2radio" type="radio" value="3" style="margin-top:4px;" /></div>HERBAL</div>
+                                <div id="menLnkD" class="menBoxLnkCls frt freshQuesB ansB1 txtAlign" value="4"><div class="flt"><input class="pg2radio" type="radio" value="4" style="margin-top:4px;" /></div>WOODY</div>
+                                <div class="clr"><!-- --></div>
+                                <div id="spB3" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:25px;"><img src="{{STATIC_URL}}images/speecharow.png" width="31" height="22" /></div>
+                                <div>Made of herbal extracts they remind you of the purity of herbs. Soothing, relaxing and mild is what makes a herbal fragrance.</div>                                            
+                                </div>
+                                <div id="spB4" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:96px;"><img src="{{STATIC_URL}}images/speecharow2.png" width="31" height="22" /></div>
+                                <div>Warm, mysterious sandalwood, drier and sharper cedar and Vetiver, resin-like and balmy exotic sorts, usually accompanied with aromatic notes.</div>
+                                            
+                                </div>
+                                <div class="clr"><!-- --></div>
+                            </div>
+                       </div>
+                        <div class="quesAImg"><img class="imgC" height="220"src="{{STATIC_URL}}images/img5.jpg" width="201" height="243" hspace="0" vspace="0" /><br /><div class="quesAImgHd" style="background:#8d521e;">SPICY</div>
+                           
+                            <div class="quesABAns">
+                                <div id="menLnkE" class="menBoxLnkCls flt freshQuesC ansC1" value="5"><div class="flt"><input class="pg2radio" type="radio" value="5" style="margin-top:4px;" /></div>ORIENTAL</div>
+                                <div id="menLnkF" class="menBoxLnkCls frt freshQuesC ansC1 txtAlign" value="6"><div class="flt"><input class="pg2radio" type="radio" value="6" style="margin-top:4px;" /></div>LEATHER</div>
+                                <div class="clr"><!-- --></div>
+                                <div id="spB5" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:25px;"><img src="{{STATIC_URL}}images/speecharow.png" width="31" height="22" /></div>
+                                <div>Oriental fragrances have accentuated warmth and sensuality. They include musk, vanilla, exotic resins and wood, accompanied with exotic flowers and spices.</div>
+                                            
+                                </div>
+                                <div id="spB6" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:96px;"><img src="{{STATIC_URL}}images/speecharow2.png" width="31" height="22" /></div>
+                                <div>Enhanced with the warmth and freshness of leather. The top notes of this fragrance smells of rich leather.</div>
+                                            
+                                </div>
+                                <div class="clr"><!-- --></div>
+                            </div>                                    
+                        </div>
+                    </div>
+                    <div id="woman2page" style="display:none">
+                            <div style="margin-bottom:12px; padding:0 !important;" class="scentQuesATxt">Irresistible, peppy,   soft and sensuous is what a women fragrance  must have.</div>
+                            <div class="quesAImg"><img class="imgA" src="{{STATIC_URL}}images/img6.jpg" width="201" height="243" hspace="0" vspace="0" /><br /><div class="quesAImgHd" style="background:#e2a521;">FLORAL</div>
+                            <div class="quesABAns">
+                                <div id="womenLnkA" class="menBoxLnkCls flt freshQuesA ansA1" value="1"><div class="flt"><input class="pg2radio" type="radio" value="1" style="margin-top:4px; margin-right:6px;" /></div>FLOWERY</div>
+                                <div id="womenLnkB" class="menBoxLnkCls frt freshQuesA ansA1 txtAlign" value="2"><div class="flt"><input class="pg2radio" type="radio" value="2" style="margin-top:4px;" /></div>FRUITY</div>
+                                <div class="clr"><!-- --></div>
+                                <div id="wB1" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:25px;"><img src="{{STATIC_URL}}images/speecharow.png" width="31" height="22" /></div>
+                                <div>Feminine and romantic. They are flower based fragrances like roses, lavender, Japanese cherry blossom etc. </div>
+                                            
+                                </div>
+                                <div id="wB2" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:96px;"><img src="{{STATIC_URL}}images/speecharow2.png" width="31" height="22" /></div>
+                                <div>Anything that reminds you freshly plucked strawberries, raspberries, cherries or juicy mangoes. Very fruity in nature.
+                                </div>
+                                            
+                                </div>
+                                <div class="clr"><!-- --></div>
+                            </div>
+                            </div>
+                            <div class="quesAImg"><img class="imgB"src="{{STATIC_URL}}images/img3.jpg" width="201" height="243" hspace="0" vspace="0" /><br /><div class="quesAImgHd" style="background:#90a110;">FRESH & CLEAN</div>
+                                
+                                <div class="quesABAns">
+                                <div id="womenLnkC" class="menBoxLnkCls flt freshQuesB ansB1" value="3"><div class="flt"><input class="pg2radio" type="radio" value="3" style="margin-top:4px;" /></div>HERBAL</div>
+                                <div id="womenLnkD" class="menBoxLnkCls frt freshQuesB ansB1 txtAlign" value="4"><div class="flt"><input class="pg2radio" type="radio" value="4" style="margin-top:4px;" /></div>CITRUS</div>
+                                <div class="clr"><!-- --></div>
+                                <div id="wB3" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:25px;"><img src="{{STATIC_URL}}images/speecharow.png" width="31" height="22" /></div>
+                                <div>The grass smells green and fresh and this is what green fragrances smell like. Sharp and tart like in nature.</div>                                            
+                                </div>
+                                <div id="wB4" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:96px;"><img src="{{STATIC_URL}}images/speecharow2.png" width="31" height="22" /></div>
+                                <div>Zesty oranges, crisp lemons or a sharp cut sharp cut tangerine. Spicy blast flavour makes one’s mouth water.       
+                                </div>
+                                <div class="clr"><!-- --></div>
+                            </div>
+                            </div>
+                        </div>
+                            <div class="quesAImg"><img class="imgC" src="{{STATIC_URL}}images/img5.jpg" width="201" height="243" hspace="0" vspace="0" /><br /><div class="quesAImgHd" style="background:#8d521e;">SPICY</div>
+                               
+                                 <div class="quesABAns">
+                                <div id="womenLnkE" class="menBoxLnkCls flt freshQuesC ansC1" value="5"><div class="flt"><input class="pg2radio" type="radio" value="5" style="margin-top:4px;" /></div>EXOTIC</div>
+                                <div id="womenLnkF" class="menBoxLnkCls frt freshQuesC ansC1 txtAlign" value="6"><div class="flt"><input class="pg2radio" type="radio" value="6" style="margin-top:4px;" /></div>ORIENTAL</div>
+                                <div class="clr"><!-- --></div>
+                                <div id="wB5" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:25px;"><img src="{{STATIC_URL}}images/speecharow.png" width="31" height="22" /></div>
+                                <div>A familiar category of perfume notes with aromas of cinnamon, pepper, cloves, coriander, ginger, hand-picked saffron, tamarind and caraway.</div>
+                                            
+                                </div>
+                                <div id="wB6" class="scentQuesATxt" style="display:none; padding:10px 10px 10px 10px; border:1px solid #b3dbe9; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; margin-top:15px; position:relative; background:#ffffff;"><div style="position:absolute; top:-22px; left:96px;"><img src="{{STATIC_URL}}images/speecharow2.png" width="31" height="22" /></div>
+                                <div>A succulent group of scent notes with the advent of "gourmand" fragrances, largely built on vanilla, chocolate, fresh cream and caramel smells.</div>
+                                            
+                                </div>
+                                <div class="clr"><!-- --></div>
+                            </div>           
+                            </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- man box end -->
+        <!-- man box-2 str -->
+        <div id="menLnkAns" class="menAnswerBox boxBodyBg">
+            <div class="flt quesBLftBg"></div>
+            <div class="flt" style="width:718px;">
+                <div class="tpLnk">
+                    <div id="menLnkBk" class="flt">Back</div>
+                    <div id="menLnkStr" class="frt">Start Over</div>
+                </div>
+                <div class="quesBHd">3. How Social are you?</div>
+                <div style="margin:5px 30px 5px 60px;">
+                    <div style="height:40px;"></div>
+                    <div id="menLnk1" class="menRadioBtn radioBtnA" value="1" onclick="this.style.backgroundPosition='20px -222px', this.style.backgroundColor='#e5e5e5'">
+                        I'm a party animal !!
+                    </div>
+                    <div style="height:20px;"></div>
+                    <div id="menLnk2" class="menRadioBtn radioBtnA" value="2" onclick="this.style.backgroundPosition='20px -222px', this.style.backgroundColor='#e5e5e5'">
+                        Only special occasions interest me !!
+                    </div>
+                    <div style="height:20px;"></div>
+                    <div id="menLnk3" class="menRadioBtn radioBtnA" value="3" onclick="this.style.backgroundPosition='20px -222px', this.style.backgroundColor='#e5e5e5'">
+                        I'm busy, sunrise to sunset! 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- man box-2 end -->
+        <!-- man box-3 result str -->
+        <div class="loader" style="margin-left:270px;margin-top:50px; position:absolute; z-index:9999; top:100px; left:100px; display:none;"><img src="{{STATIC_URL}}images/ajax-loader.gif">
+        </div>
+        <div id="menResult" class="resultMens boxBodyBg" >
+            <div class="flt quesCLftBg"></div>
+
+            <script type="text/javascript">
+                function clrRdBtn(){
+                                    
+                    document.getElementById("menLnk1").style.backgroundPosition="20px -152px";
+                    document.getElementById("menLnk2").style.backgroundPosition="20px -152px";
+                    document.getElementById("menLnk3").style.backgroundPosition="20px -152px";
+                    document.getElementById("menLnk1").style.backgroundColor="#FFF";
+                    document.getElementById("menLnk2").style.backgroundColor="#FFF";
+                    document.getElementById("menLnk3").style.backgroundColor="#FFF";
+                }
+            </script>
+            <div class="flt" style="width:750px;">
+                <div class="tpLnk">
+                    <div id="menRsltBk" class="flt" onclick="clrRdBtn()">Back</div>
+                    <div id="menRsltStr" class="frt" onclick="clrRdBtn()" style="padding-right:20px;">Start Over</div>
+                </div>
+                <div class="quesCHd">4.Your perfume type is:</div>
+                <div class="loader-content" style="margin:5px 30px 5px 60px; display:none;">
+                    <div>
+                        <div class="clr"></div>
+                        <div>
+                            <div class="flt" style="width:330px;">
+
+                                <div style="border:1px solid #CCC; width:310px;">
+                                    <a class="perfumeweblink" target="_new">
+                                    <img id='perf-img'src="" width="310" height="363" border="0" /></a>
+                                </div>
+                                <div style="font:bold 16px/18px Tahoma, Geneva, sans-serif; color:#333; margin:15px 0 15px 0;" id="perf-caption"></div>
+                            </div>
+                            <div class="flt" style="width:310px;">
+                                <div style="font:bold 16px/18px Tahoma, Geneva, sans-serif; color:#900" id="perf-title">
+                                </div>
+                                <div style="font:normal 12px/18px Tahoma, Geneva, sans-serif; color:#666;" id="perf-desc"></div>
+                            </div>
+                         </div>
+                        <div class="clr"></div>
+                        <div style="width:526; height:302;">
+                            <div id="FShare" class="flt mr13" >
+                                 <a  onclick='postToFeed(); return false;'>
+                                 <img src="{{STATIC_URL}}images/imga.jpg" width="201" height="41" border="0" /></a>
+                            </div>
+                            <div id="inviteFrnd" class="flt mr13">
+                                <a onclick="sendRequestViaMultiFriendSelector(); return false;">
+                                <img src="{{STATIC_URL}}images/imgb.jpg" width="201" height="41" border="0" /></a>
+                            </div>
+                            <div  id="canc" class="flt mr13">
+                                <a onclick='cancel(); return false;'>
+                                <img src="{{STATIC_URL}}images/buy_button.png" width="201" height="41" border="0" /></a>
+                            </div>
+                        
+                       </div>
+                    </div>
+            </div>
+           
+
+
+                        
+                            
+                           
+            </div>
+
+
+            </div>
+        </div>
+        <!-- man box-3 result end -->
+        <div class="clr"><!-- clear height --></div>
+    </div>
+
+
+{% endblock %}
+
+
+{% block custom_js %}
+    <script type="text/javascript">
+    var globalPerfumeInfo="";
+        $(document).ready(function(){
+
+            $("#stateMen").click(function(){
+                $("#statA").animate({
+                    left:-$("#bodyBg").width()+30
+                },"slow");
+                $("#menBox").animate({
+                    left:0
+                },"slow");
+                $("#menLnkAns").animate({
+                    left:$("#bodyBg").width()-60
+                },"slow");
+                $("#menResult").animate({
+                    left:$("#bodyBg").width()-30
+                },"slow");
+                $("#man2page").show();
+                $("#woman2page").hide();
+                $("#gender").val("M");
+
+            });
+
+            $("#stateWomen").click(function(){
+                $("#statA").animate({
+                    left:-$("#bodyBg").width()+30
+                },"slow");
+                $("#menBox").animate({
+                    left:0
+                },"slow");
+                $("#menLnkAns").animate({
+                    left:$("#bodyBg").width()-60
+                },"slow");
+                $("#menResult").animate({
+                    left:$("#bodyBg").width()-30
+                },"slow");
+                $("#man2page").hide();
+                $("#woman2page").show();
+                $("#gender").val("F");
+            });
+
+            $("#menBack").click(function(){
+                $("#menResult").animate({
+                    left:$("#bodyBg").width()
+                },"slow");
+                $("#menLnkAns").animate({
+                    left:$("#bodyBg").width()
+                },"slow");
+                $("#menBox").animate({
+                    left:$("#bodyBg").width()
+                },"slow");
+                $("#statA").animate({
+                    left:0
+                },"slow");
+                $("#gender").val("");
+            });
+
+            $("#menStartA, #menLnkStr, #menRsltStr").click(function(){
+                $("#menResult").animate({
+                    left:$("#bodyBg").width()
+                },"slow");
+                $("#menLnkAns").animate({
+                    left:$("#bodyBg").width()
+                },"slow");
+                $("#menBox").animate({
+                    left:$("#bodyBg").width()
+                },"slow");
+                $("#statA").animate({
+                    left:0
+                },"slow");
+
+                $(".pg2radio").removeAttr("checked");
+                $("#finalValue").val("");
+                $("#gender").val("");
+                 $(".loader-content").hide();
+                
+            });
+
+            
+
+            $("#menLnkBk").click(function(){
+                $("#menLnkAns").animate({
+                    left:$("#bodyBg").width()-60
+                },"slow");
+                $("#menBox").animate({
+                    left:0
+                },"slow");
+                $(".pg2radio").removeAttr("checked");
+                $("#finalValue").val($("#finalValue").val().substring(0,$("#finalValue").val().length-1));
+            });
+
+            
+
+            $("div.menBoxLnkCls").click (function(){
+             
+                $("#menBox").animate({
+                    left:0
+                },"slow");
+                $("#menLnkAns").animate({
+                    left:30
+                },"slow");
+                if($("#finalValue").val().length ==0){
+                    $("#finalValue").val($("#finalValue").val()+$(this).attr("value"));
+                }
+               
+            });
+
+           
+
+           
+            $(".menRadioBtn").click(function(){
+                $("#menLnkAns").animate({
+                    left:30
+                },"slow");
+                $("#menResult").animate({
+                    left:60
+                },"slow");
+                if($("#finalValue").val().length ==1){
+                 $("#finalValue").val($("#finalValue").val()+$(this).attr("value"));
+                }
+                $(".loader").show();
+                $.ajax({
+                      url: "{% url get_selected_perfume_info %}",
+                      data:'selected_option='+$("#finalValue").val()+'&gender='+$("#gender").val(),
+                      type:"GET",
+                      context: document.body,
+                      success: function(data){
+                        globalPerfumeInfo=data;
+                        $(".loader").hide();
+                        $(".loader-content").show();
+                        var link=data.weblink+'?utm_source=FBApp';
+                        $("#perfumelink").attr("href",link);
+                        $(".perfumeweblink").attr("href",link);
+                         $("#perf-img").attr("src",data.image);
+                        $("#perf-desc").text(data.description);
+                        $("#perf-title").text(data.title);
+                        $("#perf-caption").text(data.caption);
+                    }
+                });
+                    
+                
+
+            });
+
+            $("#womenRsltBk").click(function(){
+                $("#womenResult").animate({
+                    left:250
+                },"slow");
+                $("#womenLnkAns").animate({
+                    left:0
+                },"slow");
+                //$(".loader-content").hide();
+            });
+
+            $("#menRsltBk").click(function(){
+                $("#menResult").animate({
+                    left:$("#bodyBg").width()-30
+                },"slow");
+                $(".loader-content").hide();
+                $("#finalValue").val($("#finalValue").val().substring(0,$("#finalValue").val().length-1));
+                
+            });
+            $(".imgA").hover(function(){
+                $(".ansA1").css({"background-color":"#ffeb8e", "color":"#000000"});
+                },function(){
+                 $(".ansA1").css({"background-color":"", "color":""});
+            });
+            $(".imgB").hover(function(){
+                $(".ansB1").css({"background-color":"#d0ec7d", "color":"#000000"});
+                },function(){
+                $(".ansB1").css({"background-color":"", "color":""});
+            });
+            $(".imgC").hover(function(){
+                $(".ansC1").css({"background-color":"#f2d3b7", "color":"#000000"});
+                },function(){
+                $(".ansC1").css({"background-color":"", "color":""});
+            });
+            
+                $("#menLnkA").hover(function(){
+                    $("#spB1").css({"display":"block"});
+                },function(){
+                    $("#spB1").css({"display":"none"});
+                });
+                
+                
+                $("#menLnkB").hover(function(){
+                    $("#spB2").css({"display":"block"});
+                    },function(){
+                    $("#spB2").css({"display":"none"});
+                });
+                $("#menLnkC").hover(function(){
+                    $("#spB3").css({"display":"block"});
+                    },function(){
+                    $("#spB3").css({"display":"none"});
+                });
+                $("#menLnkD").hover(function(){
+                    $("#spB4").css({"display":"block"});
+                    },function(){
+                    $("#spB4").css({"display":"none"});
+                });
+                $("#menLnkE").hover(function(){
+                    $("#spB5").css({"display":"block"});
+                    },function(){
+                    $("#spB5").css({"display":"none"});
+                });
+                $("#menLnkF").hover(function(){
+                    $("#spB6").css({"display":"block"});
+                    },function(){
+                    $("#spB6").css({"display":"none"});
+                });
+                $("#womenLnkA").hover(function(){
+                    $("#wB1").css({"display":"block"});
+                },function(){
+                    $("#wB1").css({"display":"none"});
+                });
+                
+                
+                $("#womenLnkB").hover(function(){
+                    $("#wB2").css({"display":"block"});
+                    },function(){
+                    $("#wB2").css({"display":"none"});
+                });
+                $("#womenLnkC").hover(function(){
+                    $("#wB3").css({"display":"block"});
+                    },function(){
+                    $("#wB3").css({"display":"none"});
+                });
+                $("#womenLnkD").hover(function(){
+                    $("#wB4").css({"display":"block"});
+                    },function(){
+                    $("#wB4").css({"display":"none"});
+                });
+                $("#womenLnkE").hover(function(){
+                    $("#wB5").css({"display":"block"});
+                    },function(){
+                    $("#wB5").css({"display":"none"});
+                });
+                $("#womenLnkF").hover(function(){
+                    $("#wB6").css({"display":"block"});
+                    },function(){
+                    $("#wB6").css({"display":"none"});
+                });
+        });
+
+    </script>
+
+
+
+     <script src='http://connect.facebook.net/en_US/all.js'></script>
+
+     <script>
+
+            function cancel(){
+                var link=globalPerfumeInfo.weblink+'?utm_source=FBApp';
+                window.open(link);
+             }
+      
+     </script>
+<script>
+    FB.init({appId: "530346146994487", status: true, cookie: true});
+
+    function postToFeed() {
+
+        // calling the API ...
+        var action_object=  {'name': 'Go to APP',
+            'link': "http://apps.facebook.com/snapdealperfume"
+        }
+        var obj = {
+            method: 'feed',
+            link: globalPerfumeInfo.weblink+'?utm_source=FBApp',
+            picture: globalPerfumeInfo.image,
+            name: globalPerfumeInfo.title,
+            caption: globalPerfumeInfo.caption,
+            description: globalPerfumeInfo.description,
+            actions:action_object
+        };
+
+        function callback(response) {
+            document.getElementById('msg').innerHTML = "Post ID: " + response['post_id'];
+        }
+
+        FB.ui(obj, callback);
+    }
+
+</script>
+{% endblock %}

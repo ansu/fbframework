@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en-US" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta charset="UTF-8">
+{% block meta_tags %}
+
+{% endblock %}
+<title>
+{% block title %}{% endblock %}
+</title> 
+{% block misc_header %}{% endblock %} 
+{% block custom_css %}
+{% if page %}
+<link rel="stylesheet" href="{{STATIC_URL}}css/style_fbpage.css" />
+{% else %}
+<link rel="stylesheet" href="{{STATIC_URL}}css/style_fbapp.css" />
+{%endif %}
+
+{% endblock %}
+<script src="{{STATIC_URL}}js/jquery-1.8.2.min.js"></script>
+
+
+</head>
+<body style="margin:0; padding:0; background: #FFFFFF; height:666px;">
+	<div class="container" id="wrap">
+        <!-- old code -->
+        <div id="hd" class="cf">
+
+        {% block hd-banner %} {% endblock %}
+		<!-- old code -->
+		</div>
+		<!-- end old code -->
+		<div class="body" id="bd">
+		{% block bd-banner %}{% endblock %} 
+    
+
+      <div class="clearb"></div>
+		{%block bd-leftbox %}{% endblock %} 
+		{% block bd-rightbox %}{% endblock%} 
+		{% block content %}{% endblock %}
+		</div>
+		<div class="footer">
+		</div>
+{#		<div id="fb-root"></div>#}
+	</div>
+
+	{% block js %}
+
+    <script type="text/javascript">
+    var Context = Context || {};
+  Context.facebook = Context.facebook || {};
+  Context.facebook.behaviors = Context.facebook.behaviors || {};
+     window.fbAsyncInit = function() {
+      Context.facebook.config = Context.facebook.config || {};
+      FB.init({
+          appId : '396816537028278',
+          status : true,
+          cookie : true,
+          xfbml : true
+      });
+      FB.Canvas.setAutoResize();
+      FB.Canvas.setAutoGrow();
+      Context.facebook.attachBehaviors ();
+  };   
+      (function() {
+          
+          var e = document.createElement('script'); e.async = true;
+          
+          e.src = document.location.protocol +
+              '//connect.facebook.net/en_US/all.js';
+          document.getElementById('fb-root').appendChild(e);
+      }());
+   function sendRequestViaMultiFriendSelector() {
+        FB.ui({
+          method: 'apprequests',
+          message: 'Facebook Perfume APP'
+        });
+    }
+
+  Context.facebook.attachBehaviors = function(context) {
+      context = context || document;
+      jQuery.each(Context.facebook.behaviors, function() {
+          this(context);
+      });
+  };
+
+    Context.facebook = Context.facebook || {};
+    Context.facebook.behaviors = Context.facebook.behaviors || {};
+    Context.facebook.behaviors.trackLikes = function() {
+      FB.Event.subscribe('edge.create', function(response) {
+
+      });
+    };
+  </script>
+	{% endblock %} 
+  {% block custom_js %}{% endblock %}
+</body>
+</html>

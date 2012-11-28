@@ -1,0 +1,116 @@
+{% extends "fb_base.html" %}
+
+{% block hd-banner %}
+
+    <h1 class="fleft logo">
+        <img alt=""
+             src="{{MEDIA_URL}}snapdeal.jpg"
+             height="100px" />
+    </h1>
+    <div id="header" style="margin-left: 106px">
+        <div class="wrap">
+            <div class="banner-img">
+
+                <div id="slide-holder">
+                    <div id="slide-runner">
+                        <a href=""><img id="slide-img-1" src="{{STATIC_URL}}images/perfume.jpg" class="slide" alt="" /></a>
+                        <a href=""><img id="slide-img-2" src="{{STATIC_URL}}images/perfume1.jpg" class="slide" alt="" /></a>
+                        <a href=""><img id="slide-img-3" src="{{STATIC_URL}}images/perfume2.jpg" class="slide" alt="" /></a>
+                        <a href=""><img id="slide-img-4" src="{{STATIC_URL}}images/perfume3.jpg" class="slide" alt="" /></a>
+                        <a href=""><img id="slide-img-5" src="{{STATIC_URL}}images/perfume4.jpg" class="slide" alt="" /></a>
+                        <div id="slide-controls">
+                            <p id="slide-client" class="text"><strong>post: </strong><span></span></p>
+                            <p id="slide-desc" class="text"></p>
+                            <p id="slide-nav"></p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block content %}
+<div id="facebook_popup" class="overlay result_div">
+    <div style="float:right; margin-bottom:5px;"><img class="close" src="{{STATIC_URL}}images/icon_close.gif" alt="Close" /></div>
+    <div style="font-size: 12pt; font-weight: bold; margin-top:10px; margin-bottom: 14px;">Congratulations! .</div><div class="clearfix"><div class="dialog_graphic"><img src="http://c341518.r18.cf1.rackcdn.com/lovepics/large/50.PNG" height="120" alt=""></div></div>		<div class="buttons_set" align="center">
+    <label class="uibutton uiButton uiButtonLarge uiButtonConfirm" id="res_dlg_share">
+        <input type="button" onclick='postToFeed(); return false;'>Share My Result!</>
+    {#        <input type="button" value="Share My Result!">#}
+    </label>
+    <label class="uiButton uiButtonLarge uiButtonCancel close" id="res_dlg_cancel">
+        <input id="cancel" onclick='cancel(); return false;' type="button" value="Cancel">
+    </label>
+    <div id="msg"></div>
+
+</div>
+</div>
+<div class="statictext">
+    <a href="{{ link }}"> Your Perfume</a>
+    Thanks
+
+</div>
+
+{% endblock %}
+{% block custom_css%}
+    <link rel="stylesheet" href="{{STATIC_URL}}css/style_slider.css" type="text/css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/wonderla.css"/>
+{% endblock %}
+
+{% block custom_js %}
+     <script src='http://connect.facebook.net/en_US/all.js'></script>
+
+     <script>
+
+         {#    function cancel(){#}
+         {#        alert("{{link }}");#}
+         {#        document.getElementById("facebook_popup").innerHTML("");#}
+         {#        window.location="{{link }}";#}
+         {#    }#}
+         $("#cancel").click(function(){
+             $("#facebook_popup").hide();
+             window.open("{{ perfume.weblink }}");
+
+         });
+         //    function close(){
+         //        document.getElementById("facebook_popup").innerHTML("");
+         //    }
+         $(".close").click(function(){
+             $("#facebook_popup").hide();
+
+         });
+     </script>
+ <script type="text/javascript">
+        if(!window.slider) var slider={};slider.data=[{"id":"slide-img-1","client":"nature beauty","desc":"nature beauty photography"},{"id":"slide-img-2","client":"nature beauty","desc":"add your description here"},{"id":"slide-img-3","client":"nature beauty","desc":"add your description here"},{"id":"slide-img-4","client":"nature beauty","desc":"add your description here"},{"id":"slide-img-5","client":"nature beauty","desc":"add your description here"}];
+ </script>
+<script>
+    FB.init({appId: "280323408753876", status: true, cookie: true});
+
+    function postToFeed() {
+
+        // calling the API ...
+        var action_object=  {'name': 'Go to APP',
+            'link': "http://apps.facebook.com/snapdeal-perfumes"
+        }
+        var obj = {
+            method: 'feed',
+            link: '{{ perfume.weblink }}',
+            picture: '{{ perfume.image_link }}',
+            name: '{{ perfume.title }}',
+            caption: '{{ perfume.caption }}',
+            description: '{{ perfume.description }}',
+            actions:action_object
+        };
+
+        function callback(response) {
+            document.getElementById('msg').innerHTML = "Post ID: " + response['post_id'];
+        }
+
+        FB.ui(obj, callback);
+    }
+
+</script>
+{% endblock %}

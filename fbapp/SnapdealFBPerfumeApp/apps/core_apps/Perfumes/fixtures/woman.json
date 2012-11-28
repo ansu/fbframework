@@ -1,0 +1,379 @@
+[
+  
+ {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 23,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/calvin-klein-one-200ml/16118",
+      "description" : "Described as a fresh, fruity scent, Calvin Klein CK One eau de toilette spray is a fragrance designed for both men and women. Blending notes of green tea, amber, jasmine, papaya and pineapple, CK One is a light, modern scent that is perfect for both sexes. Calvin Klein is one of Fragrance DIRECTV's most popular scents, and this classic Calvin Klein CK One eau de toilette spray is one of the brand's most popular fragrances. CK One for both men and women provides incredible value for money, and is the ideal casual scent. In 1968, Calvin Klein set up his own coat shop at the York Hotel in New York City. Now one of the worlds most famous fashion brands, the Calvin Klein portfolio also includes sportswear, cosmetics, jeans, underwear and fragrances. Since the first fragrance, Calvin, was launched in 1981, Calvin Klein has become renowned for its collection of perfumes for both men and women.",
+      "is_enabled": "True",
+      "caption":"A light, modern scent suiting your personality!",
+      "title":"Ck One",
+      "link_weight":"43",
+      "image_link" : "http://i3.sdlcdn.com/img/product/main/ck_one_200_ml_new_M_1_2x_New.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+ {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 24,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/VersaceBri/14360",
+      "description" : "Versace Bright Crystal Women is a sparkling pink and vibrant fragrance from Versace for a woman who is feminine, elegant and beautiful. It was designed by Alberto Morillas and was first released in 2006. The bright, fresh and fruity opening of this fragrance is due to a blend of citrus, icy cool and pomegranate notes which are extremely refreshing and appeasing to the senses. The heart is a melting harmony of delicate flowers that gives the fragrance its lady-like charm. The base is sensual and seductive with notes of Acajou and wood. The fragrance has a great longevity and can be worn during the day through warm seasons. It comes in a crystal like flacon, sparkling and elegant, just like the fragrance. The top notes are pomegranate, iced accords and shining Yuzu. The middle notes consist of magnolia, peony and lotus flowers. The base notes are from plant amber, acajou and musk. The fragrance is truly a gem in itself!",
+      "is_enabled": "True",
+      "caption":"A precious jewel for rare beauty",
+      "title":"Versace Bright Crystal Women",
+      "link_weight":"11",
+      "image_link" : "http://i3.sdlcdn.com/img/product/main/VERSACE_BRIGHT_CRYSTAL_50_ml_M_1_2x_new.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+ {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 25,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/calvin-klein-eternity-women-100ml/14916",
+      "description" : "Eternity is another very successful fragrance of Calvin Klein, which was designed as a tribute to his marriage. Eternity is a hymn of eternal values: love, family and peace. The composition opens with fresh citrus and green notes, that is followed by the note of violet and lily-of-the-valley. The note of carnation with its spiciness gives the floral heart slightly peppery accord. The final notes are gentle with powdery heliotrope, pink sandalwood and transparent musky notes.",
+      "is_enabled": "True",
+      "caption":"With the subtle aroma of a spring garden!",
+      "title":"Ck Eternity Women",
+      "link_weight":"13",
+      "image_link" : "http://i3.sdlcdn.com/img/product/main/Calvin_Klein_Eternity_Women_100ML_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+ 
+  {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 28,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/ElizabethA/45781",
+	  "description":"Elizabeth Arden 5Th Avenue is a fragrance for a woman who owns a sense of style. It was launched by Ann Gottlieb in the year 1996. It is a perfume exclusively designed for women. This fragrance is designed exclusively for those women who are intelligent, successful, elegant and easily walk between luxurious showcases, feeling good in their own skin. 5th Avenue is a world-famous street and it is a symbol of wealth and imagination that has turned into reality. The name of the fragrance is inspired from this. The top notes are lilac, linden blossom, dewy magnolia, mandarin and bergamot. The middle notes are Bulgarian pink violet, ylang-ylang, jasmine, Indian tuberose, peach, carnation and nutmeg. The base notes are composed of amber, Tibetan musk, sandalwood, iris and vanilla.",
+       "is_enabled": "True",
+      "caption":"For the intelligent, successful & elegant ",
+      "title":"Elizabeth Arden 5Th Avenue Women",
+      "link_weight":"13",
+      "image_link" : "http://i1.sdlcdn.com/img/product/main/5TH_AVENUE_BY_ELIZABETH_ARDEN_FOR_WOMEN_m1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },{
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 29,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/calvin-klein-in2u-women-150ml/14245",
+	  "description":"Launched in the year 2007 the exciting women fragrance of CK IN2U comes with the high aromatic smell that makes sure that heads turn to follow you. Its sweet smell comes from the floral and fruits of nature. Its sweet smell has remarkable features that are the outcome of some of the unique and best combinations. The top notes include fruits like the soft apricot, raspberry and the tasty guavas. The middle notes include the floral notes like magnolia, the aromatic jasmine and Tiare flowers. The base notes are Tonka bean, the creamy caramel and thick cedar whose exotic smell keeps you charged up. The amazing blend of these notes will make sure people will look across the floor when you walk through the door.",
+       "is_enabled": "True",
+      "caption":"Makes sure that heads turn to follow you",
+      "title":"Ck In2U Women ",
+      "link_weight":"23",
+      "image_link" : "http://i1.sdlcdn.com/img/product/main/CK_IN2U_WOMAN_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },{
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 30,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/calvin-klein-be-200ml/10612",
+	  "description":"Calvin Klein is one of the leading fashion designers renowned for his great achievements. Born in New York, he quickly developed a passion for fashion and drawing, often spending hours on end sketching women in suits and dresses. Calvin Klein was THE name of the 1990s for the fame of his sleek, minimalistic designs and gender and taboo-breaking approaches. CK BE fragrances for men or women by Calvin Klein were launched in 1996. This designer fragrance is a flowery blend of aromas laced with warm musk for depth. CK BE fragrances for men or women by Calvin Klein fragrances are recommended for daytime wear.",
+       "is_enabled": "True",
+      "caption":"A flowery blend of class & sophistication!",
+      "title":"CK Be ",
+      "link_weight":"41",
+      "image_link" : "http://i1.sdlcdn.com/img/product/main/CKBeForMen_200ml_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },{
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 31,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/burberry-summer-women-100ml/14189",
+	  "description":"Burberry Summer Women is a fragrance that captures the mint-fresh, uplifting and serene expression of a summer morning. It was introduced in 2010. This cool fragrance is infused with exhilarating combination of citrus, floral and woody tones. Its youthful and chic feel makes you feel confident, stylish and playful at the same time. The gorgeous dry down is sensual and flirtatious. It will create an aura of summer around every time you use it! Great for casual wear, weekends and vacations, can be worn on special occasions and is perfect for your romantic moments! The opening notes are fresh and lively pomegranate, orange and green leaves. The heart transcends to a floral end with rose, freesia and lily of the valley. The superb base is woody musky with cedar, sandalwood and white musk.",
+       "is_enabled": "True",
+      "caption":"Creates an aura of summer around you",
+      "title":"Burberry Summer Women ",
+      "link_weight":"32",
+      "image_link" : "http://i4.sdlcdn.com/img/product/main/BURBERRY_SUMMER_WOMEN_100ML_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },{
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 32,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/calvin-klein-in2u-women-100/32596",
+	  "description":"Launched in the year 2007 the exciting women fragrance of CK IN2U comes with the high aromatic smell that makes sure that heads turn to follow you. Its sweet smell comes from the floral and fruits of nature. Its sweet smell has remarkable features that are the outcome of some of the unique and best combinations. The top notes include fruits like the soft apricot, raspberry and the tasty guavas. The middle notes include the floral notes like magnolia, the aromatic jasmine and Tiare flowers. The base notes are Tonka bean, the creamy caramel and thick cedar whose exotic smell keeps you charged up. The amazing blend of these notes will make sure people will look across the floor when you walk through the door.",
+       "is_enabled": "True",
+      "caption":"Makes sure that heads turn to follow you",
+      "title":"Ck In2U Women ",
+      "link_weight":"23",
+      "image_link" : "http://i1.sdlcdn.com/img/product/main/CK_IN2U_WOMAN_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+  {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 26,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/NinaRicciP/16104",
+	  "description":"",
+      "is_enabled": "True",
+      "caption":"Entice everyone with an alluring combination!",
+      "title":"Nina Ricci Premier Jour Women ",
+      "link_weight":"53",
+      "image_link" : "http://i1.sdlcdn.com/img/product/main/Premier_Jour_Nina_Ricci_50ml_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+  {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 27,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/BurberryWe/24712",
+	  "description":"",
+	   "is_enabled": "True",
+      "caption":"A soft and elegant fragrance for your weekend!",
+      "title":"Burberry Weekend Women ",
+      "link_weight":"63",
+      "image_link" : "http://i2.sdlcdn.com/img/product/main/burberry_weekend_women_100ml_n_M1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+  {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 33,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/Davidoff-Coolwater-Women-100ml/12988",
+      "description" : "Ten years after the successful launch of Cool Water for men, women’s version was finally released. The scent is very calm with aquatic notes that remind of ocean breeze and cool sea-water, fruits and woods. Top notes are luscious, cool and aquatic with Citrus, Honeydew Melon, Quince, Pineapple, Lotus and Lily. The middle notes are gentle flowers; May Rose, Jasmine and Muguet. The perfume features base notes are Musk, Vanilla, Peach, Sandalwood, Orris and Vetiver. Cool Water was created by Pierre Bourdon in 1996.",
+      "is_enabled": "True",
+      "caption":"Crafted for women who thrive in the timeless bounty of nature.",
+      "title":"Davidoff Coolwater Women",
+      "link_weight":"33",
+      "image_link" : "http://i1.sdlcdn.com/img/product/main/DAVIDOFF_COOL_WATER_WOMEN_DEO_M_1_2x_new.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+  {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 34,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/benetton-hot-women-100ml/12983",
+      "description" : "Launched in the year 1997, Benetton Hot Women by Benetton is an oriental fragrance with a desirable and pleasing aroma. The top notes of Benetton Hot Women incorporate mandarin orange, bergamot, Brazilian rosewood, and lemon and move on to the middle notes that include apricot, orris, water jasmine, and lily-of-the-valley. The base notes are sandalwood, amber, vanilla, oakmoss, and cedar. This woody and floral fragrance is sure to conquer your heart! Benetton Hot Women lets out a normal subtle woman’s sensuality and helps her be her flirting best. The fresh and spicy fragrance is sure to linger on you for a long time. The wild side of a woman comes out in the open and warns men of how tough she can be. Benetton Hot Women is perfect for all outings and is sure to become your favourite. Dressed in a smart and stylish bottle with a red cap, Benetton Hot Women is here to spice up your life.",
+      "is_enabled": "True",
+      "caption":"For women with limitless power of attraction",
+      "title":"Benetton Hot Women",
+      "link_weight":"61",
+      "image_link" : "http://i2.sdlcdn.com/img/product/main/benetton_hot_women_2X_new_xyz.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+  {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 35,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/calvin-klein-one-200ml/16118",
+      "description" : "Described as a fresh, fruity scent, Calvin Klein CK One eau de toilette spray is a fragrance designed for both men and women. Blending notes of green tea, amber, jasmine, papaya and pineapple, CK One is a light, modern scent that is perfect for both sexes. Calvin Klein is one of Fragrance DIRECTV's most popular scents, and this classic Calvin Klein CK One eau de toilette spray is one of the brand's most popular fragrances. CK One for both men and women provides incredible value for money, and is the ideal casual scent. In 1968, Calvin Klein set up his own coat shop at the York Hotel in New York City. Now one of the worlds most famous fashion brands, the Calvin Klein portfolio also includes sportswear, cosmetics, jeans, underwear and fragrances. Since the first fragrance, Calvin, was launched in 1981, Calvin Klein has become renowned for its collection of perfumes for both men and women.",
+      "is_enabled": "True",
+      "caption":"A light, modern scent suiting your personality!",
+      "title":"Ck One",
+      "link_weight":"42",
+      "image_link" : "http://i3.sdlcdn.com/img/product/main/ck_one_200_ml_new_M_1_2x_New.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+  {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 36,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/DieselZero/14307",
+	  "description":"The brand Diesel was born more than 20 years ago and is today an innovative international design company, manufacturing jeans and casual clothing as well as accessories. Renzo Rosso was the founder of the company which started in 1978, he wanted it to be a leader, a company which took chances and carved out a niche for itself in its field. He was surrounded by creative and talented people around him as well as the innovators who, like him, rejected the slavish trend-following typical of the fashion industry.Diesel “historical moments include mile-stones like 1978 (creation of the brand name), 1985, 1991 (beginning of the international marketing strategy) and 1996. The company views the world as a single, border-less macro-culture. And the Diesel staff reflects this: a wide variety of people and personalities from all parts of the globe. Today Diesel is a global concern with a consolidated annual turnover of 575 billion Lire (US$ 330 million), 85% of which is generated outside Italy. Launched by the design house of Diesel in 1995, DIESEL ZERO PLUS is classified as a refined, oriental, woody fragrance. This scent possesses a blend of woods. It is recommended for evening wear.",
+      "is_enabled": "True",
+      "caption":"Show off your true colour!",
+      "title":"Diesel Zero Plus Women ",
+      "link_weight":"52",
+      "image_link" : "http://i2.sdlcdn.com/img/product/main/DIESEL_ZERO_PLUS_WOMEN_75ml_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+  {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 37,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/DieselZero/14307",
+	  "description":"The brand Diesel was born more than 20 years ago and is today an innovative international design company, manufacturing jeans and casual clothing as well as accessories. Renzo Rosso was the founder of the company which started in 1978, he wanted it to be a leader, a company which took chances and carved out a niche for itself in its field. He was surrounded by creative and talented people around him as well as the innovators who, like him, rejected the slavish trend-following typical of the fashion industry.Diesel “historical moments include mile-stones like 1978 (creation of the brand name), 1985, 1991 (beginning of the international marketing strategy) and 1996. The company views the world as a single, border-less macro-culture. And the Diesel staff reflects this: a wide variety of people and personalities from all parts of the globe. Today Diesel is a global concern with a consolidated annual turnover of 575 billion Lire (US$ 330 million), 85% of which is generated outside Italy. Launched by the design house of Diesel in 1995, DIESEL ZERO PLUS is classified as a refined, oriental, woody fragrance. This scent possesses a blend of woods. It is recommended for evening wear.",
+      "is_enabled": "True",
+      "caption":"Show off your true colour!",
+      "title":"Diesel Zero Plus Women ",
+      "link_weight":"52",
+      "image_link" : "http://i2.sdlcdn.com/img/product/main/DIESEL_ZERO_PLUS_WOMEN_75ml_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+  {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 38,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/Dolce&Gabb/14246",
+	  "description":"The perfect partner on any holiday trip, Dolce & Gabbana Light Blue was launched in the year 2001. Perfect for the sizzling summer mornings and colourful evenings this fragrance massages your senses. Its aromatic notes include beautiful bluebells, juicy apple, white jasmine and roses. It also has a perfect blend of Sicilian cedar and fresh Granny Smith apple. It allows you to keep the spontaneity with the floral beauty. It increases the feminine charm with absolute freshness of bamboo and the intense aromatic jasmine and the bottom of white rose. The delicate fuses of citron wood, amber along with musk would surely make your evenings more pleasant. This exotic blend of ultimate smells comes in a light blue packaging.",
+      "is_enabled": "True",
+      "caption":"For women with feminine charm & absolute freshness ",
+      "title":"Dolce & Gabbana Light Blue Women ",
+      "link_weight":"41",
+      "image_link" : "http://i2.sdlcdn.com/img/product/main/D&G_Light_Blue_Women_100ML_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },{
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 39,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/DGRoseTheO/45784",
+	  "description":"Rose The One is a new fragrance by the house of Dolce & Gabbana which has offered so excellent range of perfumes. The One appeared in the market in the year 2006. Its notes are intoxicating and have a very soothing essence. The fragrance is radiant, sensual and sophisticated and it celebrates the rebirth of exotic femininity and the power of spontaneous emotion. Its fragrance will remind you of the bright and peaceful sun flowers. It rejuvenates you with some sensuous notes such as black currant, pink grapefruit, mandarin, lily of the valley, rose, litchi, peony, Madonna lily, along with ambrette seed, sandalwood, musk as well as vanilla. D&G Rose thus keeps you fresh throughout the day with its pleasing fragrance and it’s worth a try.",
+      "is_enabled": "True",
+      "caption":"Intoxicating with soothing essence, just like you!",
+      "title":"D&G Rose The One Women",
+      "link_weight":"23",
+      "image_link" : "http://i4.sdlcdn.com/img/product/main/D&G_Rose_The_One_Women_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },{
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 40,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/antonio-banderas-blue-seduction-women/14088",
+	  "description":"Antonio Banderas Blue Seduction Women was launched with much aplomb in 2008 for a strong emancipated woman who can carry off seductive, edgy perfumes with grace and elegance. It was created by three prominent perfumers including Olivier Cresp, Elizabeth Vidal, and Rosendo Mateu. This perfume is fresh and energizing with its calm aquatic notes reminding you of the ocean. The Antonio Banderas Blue Seduction Women opens with refreshing aromas of violet and juices of fruits. It is then combined with raspberry, sugary nuances, and other oriental accords. It comes in a stylish and chic glass flacon with a bluish tinge and a pretty silver stopper. It is packaged in a cool blue box that features its name prominently in red.",
+      "is_enabled": "True",
+      "caption":"For strong emancipated women",
+      "title":"Antonio Banderas Blue Seduction Women ",
+      "link_weight":"11",
+      "image_link" : "http://i1.sdlcdn.com/img/product/main/ANTONIO_BLUE_SEDUCTION_MEN_100ML_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },{
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 41,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/ElizabethA/14524",
+	  "description":"Sunflowers Elizabeth Arden for women, which was designed by David Apel, was launched in the year 1993. This unique perfume has a distinctive aura which will envelop your senses. With just one spritz, you will be transported into a beautiful floral paradise. It is fresh and floral scent which will keep you happy and cheerful all through the day. It is encased in a glass bottle with a milky white stopper. Its fragrance will remind you of bright and peaceful sun flowers. Sunflowers is ideal to be worn during summer and informal occasions. The heart of this rejuvenating perfume has notes of cyclamen, rose, pure jasmine, iris root and Osmanthus which will last you all through the day. Its base comprises of musk, amber, moss, cedar and sandal wood.",
+      "is_enabled": "True",
+      "caption":"A beautiful floral paradise, just for you!",
+      "title":"Elizabeth Arden Sunflower Women ",
+      "link_weight":"22",
+      "image_link" : "http://i2.sdlcdn.com/img/product/main/Elizabeth_Arden_Sunflower_Women_100ML_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },{
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 42,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/carolina-herrera-212-sexy-women/14199",
+	  "description":"Carolina Herrera, a Venezuelan native, was born in 1939. She rose as a popular designer and later launched in the US where she grew to be more popular. Later along with her fragrance line, she also launched accessories and leather products. To bring out the imposing charm in you Carolina Herrera 212 Sexy Women has intoxicating smelling ingredients that include the aromatic mandarin orange, bergamot and the stylish pink pepper. Its middle notes contains fresh and sweet smelling petals, the famous gardenia and the fine-looking cotton candy. The base notes are the scents of sandalwood, the pleasing vanilla and delightful musk. Women, it is just a spray away. Impress your darling more and make him stay with you every time.",
+      "is_enabled": "True",
+      "caption":"For the impressive woman that you are!",
+      "title":"Carolina Herrera 22 Sexy Women ",
+      "link_weight":"31",
+      "image_link" : "http://i1.sdlcdn.com/img/product/main/CAROLINA_HERRERA_212_SEXY_WOMEN_60ML_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },{
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 43,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/VersaceVan/14367",
+	  "description":"Versace Vanitas Women is a glowing bright rich fragrance from Versace with delicate white florals as the main accord. The nose behind this fragrance is Dora Baghriche-Arnaud. The fragrance was launched in 2011. Versace rightly describes Vanitas as “the most feminine part of the ego”. The perfume is a representation of a powerful, feminine and influential woman who can get whatever she wishes for! The fragrance opens with sparkling fresh citrus notes that float towards an aromatic floral heart before settling down to a delicious, woody and sensual dry down. It comes in a stylish elegant gold flacon which echoes the luxury, sensuality and class of the fragrance. Versace Vanitas has the top notes from fresh lime and Tiare. The heart blossoms with the sweetness of freesia and the base is formed on lustful traces of Tonka playing with relaxing wooden notes.",
+      "is_enabled": "True",
+      "caption":"Echoes luxury, sensuality and class, just like you!",
+      "title":"Versace Vanitas Women ",
+      "link_weight":"13",
+      "image_link" : "http://i3.sdlcdn.com/img/product/main/VERSACE_VANITAS_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+  {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 44,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/benetton-hot-women-100ml/12983",
+      "description" : "Launched in the year 1997, Benetton Hot Women by Benetton is an oriental fragrance with a desirable and pleasing aroma. The top notes of Benetton Hot Women incorporate mandarin orange, bergamot, Brazilian rosewood, and lemon and move on to the middle notes that include apricot, orris, water jasmine, and lily-of-the-valley. The base notes are sandalwood, amber, vanilla, oakmoss, and cedar. This woody and floral fragrance is sure to conquer your heart! Benetton Hot Women lets out a normal subtle woman’s sensuality and helps her be her flirting best. The fresh and spicy fragrance is sure to linger on you for a long time. The wild side of a woman comes out in the open and warns men of how tough she can be. Benetton Hot Women is perfect for all outings and is sure to become your favourite. Dressed in a smart and stylish bottle with a red cap, Benetton Hot Women is here to spice up your life.",
+      "is_enabled": "True",
+      "caption":"For women with limitless power of attraction",
+      "title":"Benetton Hot Women",
+      "link_weight":"62",
+      "image_link" : "http://i2.sdlcdn.com/img/product/main/benetton_hot_women_2X_new_xyz.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+  {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 45,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/VersaceBri/14360",
+      "description" : "Versace Bright Crystal Women is a sparkling pink and vibrant fragrance from Versace for a woman who is feminine, elegant and beautiful. It was designed by Alberto Morillas and was first released in 2006. The bright, fresh and fruity opening of this fragrance is due to a blend of citrus, icy cool and pomegranate notes which are extremely refreshing and appeasing to the senses. The heart is a melting harmony of delicate flowers that gives the fragrance its lady-like charm. The base is sensual and seductive with notes of Acajou and wood. The fragrance has a great longevity and can be worn during the day through warm seasons. It comes in a crystal like flacon, sparkling and elegant, just like the fragrance. The top notes are pomegranate, iced accords and shining Yuzu. The middle notes consist of magnolia, peony and lotus flowers. The base notes are from plant amber, acajou and musk. The fragrance is truly a gem in itself!",
+      "is_enabled": "True",
+      "caption":"A precious jewel for rare beauty",
+      "title":"Versace Bright Crystal Women",
+      "link_weight":"12",
+      "image_link" : "http://i3.sdlcdn.com/img/product/main/VERSACE_BRIGHT_CRYSTAL_50_ml_M_1_2x_new.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  },
+   {
+    "model": "Perfumes.PerfumeLinkDetail",
+    "pk": 46,
+    "fields": {
+      "gender": "F",
+      "weblink": "http://www.snapdeal.com/product/NinaRicciP/16104",
+	  "description":"",
+      "is_enabled": "True",
+      "caption":"Entice everyone with an alluring combination!",
+      "title":"Nina Ricci Premier Jour Women ",
+      "link_weight":"51",
+      "image_link" : "http://i1.sdlcdn.com/img/product/main/Premier_Jour_Nina_Ricci_50ml_M_1_2x.jpg",
+      "create_date": "2012-10-09"
+
+    }
+  }
+ ]

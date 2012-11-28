@@ -1,0 +1,84 @@
+#bodyBg {
+    background:url(../images/bg.jpg) left top no-repeat;
+    width:850px;
+    height:600px;
+    position:absolute;
+    overflow:hidden;
+    margin-left: 30px;
+
+}
+.boxBodyBg {
+    background: url(../images/bg.jpg) no-repeat left top;
+    width:850px; height:664px;
+
+}
+.clr {clear:both;}
+.flt {float:left;}
+.frt {float:right;}
+.txtAlign {text-align:left;}
+.mr13 {margin-right:13px;cursor:pointer;}
+.imgblk {width:201px; height:220px; overflow:hidden;}
+.aaquestionBox {width:810px; height:604px; display:inline; position:absolute;}
+.genderBox {position:absolute;}
+.menBoxCls {position:absolute; left:850px; width:850px;}
+.menAnswerBox {position:absolute; left:850px; width:850px;}
+.resultMens {position:absolute; left:850px; width:820px;}
+
+
+
+
+.fruitFlowerImg {margin-top:64px;}
+.question1Box .quesA {text-align:center; margin-top:15px; font:normal 50px/56px Segoe UI, Arial, sans-serif; color:#6e6e6e;}
+.question1Box .QuesBrief {text-align:center; font:normal 13px/18px Segoe UI, Arial, sans-serif; color:#6e6e6e; margin:10px auto; width:600px;}
+.question1Box .shopFor {text-align:center; font:normal 23px/26px Segoe UI, Arial, sans-serif; color:#6e6e6e; margin:30px 0 24px 0;}
+
+.manBtn {width:112px; height:30px; color:#FFF; background:#71d2ff; text-align:center; font:normal 20px/26px Segoe UI, Arial, sans-serif; text-decoration:underline; cursor:pointer;}
+.manBtn:hover {background:#8f8f8f; text-decoration:underline;}
+
+.womanBtn {width:112px; height:30px; color:#FFF; background:#ff90f8; text-align:center; font:normal 20px/26px Segoe UI, Arial, sans-serif; text-decoration:underline; cursor:pointer;}
+.womanBtn:hover {background:#8f8f8f; text-decoration:underline;}
+
+/* box2 str */
+
+.quesALftBg, .quesBLftBg, .quesCLftBg {background-image:url(../images/lft_ques_img.gif); background-repeat:no-repeat;}
+.quesALftBg {width:30px; height:566px; background-position:left bottom; background-color:#5daaf2;}
+.quesBLftBg {width:30px; height:566px; background-position:-35px bottom; background-color:#97c85e;}
+.quesCLftBg {width:30px; height:566px; background-position:-70px bottom; background-color:#c54f43;}
+
+.quesAHd, .quesBHd, .quesCHd {background-image:url(../images/arow-bg.png); background-repeat:no-repeat; font:normal 32px/36px Segoe UI, Arial, sans-serif; color:#525151; margin-top:22px; padding-left:32px; height:48px;}
+.quesAHd {background-position:left top;}
+.quesAcontent{margin: -3px 30px 5px 60px;}
+.quesBHd {background-position:left -50px;}
+.quesCHd {background-position:left -97px;}
+
+.freshQuesA {width:86px; height:20px; color:#656565; padding:2px 4px; cursor:pointer;}
+.freshQuesA:hover {background:#ffeb8e; color:#000;}
+.freshQuesB {width:86px; height:20px; color:#656565; padding:2px 4px; cursor:pointer;}
+.freshQuesB:hover {background:#d0ec7d; color:#000;}
+.freshQuesC {width:86px; height:20px; color:#656565; padding:2px 4px; cursor:pointer;}
+.freshQuesC:hover {background:#f2d3b7; color:#000;}
+.freshQuesCA {width:95px; height:20px; color:#656565; padding:2px 2px; cursor:pointer;}
+.freshQuesCA:hover {background:#f2d3b7; color:#000;}
+
+
+.scentQuesATxt {font:normal 12px/16px Segoe UI, Arial, sans-serif; color:#979797; padding-top:6px;}
+
+.quesAImg {margin-right:6px; width:201px; float:left;}
+.quesAImgHd {width:199px; height:39px; text-align:center; font:normal 24px/39px Segoe UI, Arial, sans-serif; color:#ffffff; border:1px solid #e8e8e8; border-top:0px;}
+.quesABAns {font:normal 14px/20px Segoe UI, Arial, sans-serif; margin:5px 3px 5px 3px;}
+
+
+
+.radioBtnA, .radioBtnA:hover {background-image:url(../images/arow-bg.png); background-repeat:no-repeat; cursor:pointer; background-color:#FFF}
+.radioBtnA {width:420px; height:50px; border:1px solid #e8e8e8; margin-left:50px; font:normal 20px/50px Segoe UI, Arial, sans-serif; color:#525151; padding-left:60px; background-position:20px -152px;}
+.radioBtnA:hover {background-color:#e5e5e5;}
+
+.tpLnk {cursor:pointer; padding:3px 40px; font:normal 13px/18px Segoe UI, Arial, sans-serif; color:#6e6e6e;}
+.loader{position: absolute; left: 100px; top: 100px; z-index: 999;}
+#facebook_popup{
+
+    width:300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
